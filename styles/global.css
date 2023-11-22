@@ -1,0 +1,158 @@
+html {
+  position: relative;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+  color: var(--text-basic-color);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+button {
+  padding: 0;
+  background-color: #fff0;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+p,
+figure,
+fieldset {
+  margin: 0;
+}
+
+iframe {
+  border: none;
+}
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-weight: 500;
+}
+
+.link {
+  outline: #fff0;
+  transition: color .3s ease-in-out;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--advantages-pseudo-color);
+}
+
+.link:active {
+  color: var(--btn-color);
+}
+
+.push {
+  font-size: 20px;
+  font-weight: 500;
+  background-color: var(--btn-color);
+  border-radius: 50px;
+  outline: #fff0;
+  box-shadow: 0 4px 25px 0 var(--box-shadow-color);
+  transition: background .4s ease-out;
+}
+
+.push:hover,
+.push:focus {
+  background-color: var(--advantages-pseudo-color);
+}
+
+.push:active {
+  background-color: var(--callback-agreement-color);
+}
+
+/* ----------------------------------------- 1024px */
+@media (max-width: 1024px) {
+  .title {
+    font-size: 32px;
+  }
+}
+
+/* ----------------------------------------- 768px */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .push {
+    font-size: 18px;
+  }
+}
+
+/* ----------------------------------------- 580px */
+@media (max-width: 580px) {
+  .title {
+    font-size: 23px;
+  }
+
+  .push {
+    font-size: 16px;
+  }
+}
+
+/* ----------------------------------------- 380px */
+@media (max-width: 380px) {
+  .title {
+    font-size: 20px;
+  }
+}

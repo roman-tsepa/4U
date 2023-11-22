@@ -1,0 +1,65 @@
+:root {
+  --block-dark-color: #2f324bd9;
+  --block-light-color: #f9f9f9;
+
+  --text-basic-color: #fff;
+
+  --btn-color: #15a9cb;
+
+  --border-color: #fff;
+
+  --box-shadow-color: #15a9cb4d;
+
+  --placeholder-color: #ffffff80;
+
+  --header-title-color: #ffffffdb;
+  --header-desc-color: #ffffffbf;
+
+  --advantages-text-color: #383a4c;
+  --advantages-pseudo-color: #23c7ec;
+
+  --callback-subtitle-color: #ffffffcc;
+  --callback-agreement-color: #4a76a8;
+
+  --footer-primary-color: #2f324b;
+  --footer-secondary-color: #2a2c3f;
+
+  --footer-author-secondary-color: #9798a5;
+}
+
+.advantages {
+  --cart-count: 2;
+  --column-gap: 50px;
+}
+
+.footer {
+  --angle-gradient: 0;
+  --point-gradient: 100%;
+}
+
+/* ----------------------------------------- 580px */
+@media (max-width: 580px) {
+  .advantages {
+    --column-gap: 20px;
+  }
+
+  .footer {
+    --angle-gradient: 180deg;
+    --point-gradient: 90px;
+  }
+}
+
+/* ----------------------------------------- 380px */
+@media (max-width: 380px) {
+  :root {
+    --footer-author-secondary-color: #94959f;
+  }
+
+  .advantages {
+    --cart-count: 1;
+  }
+
+  .footer {
+    --point-gradient: 80px;
+  }
+}

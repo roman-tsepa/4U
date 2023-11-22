@@ -1,0 +1,12 @@
+@import "styles/var.css";
+@import "styles/fonts.css";
+@import "styles/normalize.css";
+@import "styles/global.css";
+@import "blocks/header.css";
+@import "blocks/logo.css";
+@import "blocks/contact.css";
+@import "blocks/advantages.css";
+@import "blocks/callback.css";
+@import "blocks/footer.css";
+@import "";
+@import "";

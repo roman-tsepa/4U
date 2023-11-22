@@ -1,0 +1,164 @@
+.header {
+  position: relative;
+  z-index: 0;
+  padding: 40px 0 120px;
+  text-align: center;
+  background-image: url(../img/workplace.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-color: var(--block-dark-color);
+}
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__container > :not(.header__box) {
+  align-self: center;
+}
+
+.header__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.header__title {
+  max-width: 990px;
+  margin-bottom: 35px;
+  font-size: 52px;
+  line-height: 1.2;
+  font-weight: 900;
+  color: var(--header-title-color);
+}
+
+.header__desc {
+  max-width: 960px;
+  margin-bottom: 90px;
+  font-size: 22px;
+  line-height: 1.3;
+  color: var(--header-desc-color);
+}
+
+.header__scroll {
+  max-width: 200px;
+  width: 100%;
+  padding: 12px;
+  line-height: 1.2;
+}
+
+/* ----------------------------------------- 1024px */
+@media (max-width: 1024px) {
+  .header {
+    padding: 26px 0 70px;
+  }
+
+  .header__box {
+    margin-bottom: 70px;
+  }
+
+  .header__title {
+    max-width: 780px;
+    margin-bottom: 28px;
+    font-size: 40px;
+  }
+
+  .header__desc {
+    max-width: 754px;
+    margin-bottom: 60px;
+    font-size: 18px;
+  }
+
+  .header__scroll {
+    max-width: 202px;
+  }
+}
+
+/* ----------------------------------------- 768px */
+@media (max-width: 768px) {
+  .header {
+    padding: 20px 0 67px;
+  }
+
+  .header__box {
+    margin-bottom: 67px;
+  }
+
+  .header__title {
+    max-width: 600px;
+    margin-bottom: 25px;
+    font-size: 32px;
+  }
+
+  .header__desc {
+    max-width: 590px;
+    margin-bottom: 57px;
+    font-size: 15px;
+  }
+
+  .header__scroll {
+    max-width: 185px;
+  }
+}
+
+/* ----------------------------------------- 580px */
+@media (max-width: 580px) {
+  .header {
+    padding: 18px 0 65px
+  }
+
+  .header__box {
+    margin-bottom: 65px;
+  }
+
+  .header__title {
+    max-width: 470px;
+    margin-bottom: 23px;
+    font-size: 26px;
+  }
+
+  .header__desc {
+    max-width: 470px;
+    margin-bottom: 54px;
+    font-size: 14px;
+  }
+
+  .header__scroll {
+    max-width: 175px;
+  }
+}
+
+/* ----------------------------------------- 380px */
+@media (max-width: 380px) {
+  .header {
+    padding-top: 15px;
+  }
+
+  .header__title {
+    max-width: 290px;
+    font-size: 20px;
+  }
+
+  .header__desc {
+    max-width: 290px;
+  }
+
+  .header__text-hidden {
+    position: fixed;
+    transform: scale(0);
+  }
+
+  .header__scroll {
+    max-width: 160px;
+  }
+}
