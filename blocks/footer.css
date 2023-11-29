@@ -23,15 +23,16 @@
 .footer__box {
   display: flex;
   align-items: center;
-  gap: 19px;
+  gap: 20px;
 }
 
 .footer__copyright {
-  line-height: 1.3;
+  line-height: 1.45;
   white-space: pre-line;
 }
 
 .footer__author {
+  padding-right: 2px;
   line-height: 1.4;
   text-align: center;
   white-space: pre-wrap;
