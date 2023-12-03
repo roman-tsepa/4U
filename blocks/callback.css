@@ -106,7 +106,7 @@
 
   .callback__inner {
     margin-bottom: 31px;
-    padding-right: 3px;
+    padding-right: 1px;
   }
 
   .callback__subtitle {
@@ -116,8 +116,8 @@
   }
 
   .callback__input-field {
-    max-width: 377.5px;
-    padding: 8px 23.5px;
+    max-width: 377px;
+    padding: 8px 23px;
     font-size: 20px;
     line-height: 1.16;
     outline-width: 2px;
@@ -125,6 +125,10 @@
 
   .callback__input-field_indent-bottom_small {
     margin-bottom: 20px;
+  }
+
+  .callback__input-field_indent_right {
+    margin-right: 5px;
   }
 
   .callback__input-field::placeholder {
@@ -171,6 +175,10 @@
 
   .callback__input-field_indent-bottom_large {
     margin-bottom: 48px;
+  }
+
+  .callback__input-field_indent_right {
+    margin-right: 0;
   }
 
   .callback__input-field::placeholder {

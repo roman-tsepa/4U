@@ -147,6 +147,7 @@
 @media (max-width: 380px) {
   .header {
     padding-top: 15px;
+    background-position: left -62px center;
   }
 
   .header__title {
