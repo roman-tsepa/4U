@@ -51,10 +51,12 @@
 
   .contact__text-phone {
     font-size: 21px;
+    line-height: 1.24;
   }
 
   .contact__anchor {
     font-size: 13px;
+    line-height: 1.38;
   }
 }
 

@@ -66,9 +66,7 @@
 
 .callback__input-field::placeholder {
   font-size: 22px;
-
   letter-spacing: .03px;
-
   color: var(--placeholder-color);
 }
 
@@ -97,26 +95,31 @@
 /* ----------------------------------------- 1024px */
 @media (max-width: 1024px) {
   .callback {
-    padding-bottom: 56px;
+    padding: 70px 0 56px;
   }
 
   .callback__title {
-    margin-bottom: 16px;
+    margin-bottom: 15px;
+    padding-right: 9px;
+    line-height: 1.22;
   }
 
   .callback__inner {
-    margin-bottom: 30px;
+    margin-bottom: 31px;
+    padding-right: 3px;
   }
 
   .callback__subtitle {
+    margin-bottom: 49px;
+    padding-left: 19px;
     font-size: 20px;
   }
 
   .callback__input-field {
-    max-width: 377px;
-    padding: 8px 23px;
+    max-width: 377.5px;
+    padding: 8px 23.5px;
     font-size: 20px;
-    line-height: 1.15;
+    line-height: 1.16;
     outline-width: 2px;
   }
 
@@ -141,10 +144,17 @@
 
   .callback__title {
     margin-bottom: 14px;
+    padding: 0;
+  }
+
+  .callback__inner {
+    margin-bottom: 30px;
+    padding: 0;
   }
 
   .callback__subtitle {
     margin-bottom: 44px;
+    padding: 0;
     font-size: 17px;
   }
 
@@ -196,7 +206,7 @@
   }
 
   .callback__input-field_indent-bottom_large {
-    margin-bottom: 45px;
+    margin-bottom: 46px;
   }
 
   .callback__btn {
@@ -211,22 +221,24 @@
 /* ----------------------------------------- 380px */
 @media (max-width: 380px) {
   .callback {
-    padding: 30px 0;
+    padding: 30px 0 28px;
   }
 
   .callback__title {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    padding-right: 2px;
   }
 
   .callback__subtitle {
-    margin-bottom: 35px;
+    margin-bottom: 36px;
     font-size: 12px;
   }
 
   .callback__input-field {
     max-width: 290px;
-    padding: 6px 18px;
+    padding: 6px 17px;
     font-size: 14px;
+    line-height: 1.14;
     outline-width: 1px;
   }
 
@@ -240,8 +252,8 @@
 
   .callback__btn {
     max-width: 174px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 10px 12px 10px 10px;
+    line-height: 1.125;
   }
 
   .callback__btn::first-letter {
@@ -250,5 +262,9 @@
 
   .callback__personal {
     font-size: 11px;
+  }
+
+  .callback__agreement {
+    text-underline-offset: 3px;
   }
 }
